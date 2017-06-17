@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <title>Souq Naql</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/bootstrap-arabic.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+</head>
+
+<body>
+    <!--  Start Tabs   -->
+    <section id="dashboard">
+        <div class="fluid-container-dashboard">
+            <div class="row">
+                <div class="col-sm-2">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs tabs-right">
+                        <li class="active">
+                            <a class="active" href="index.html">
+                                <img src="img/dash-icons/home.png">
+                                <br>الرئيسية
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="order-now.html">
+                                <img src="img/dash-icons/defult_03.png" alt="" width="80px" height="80px">
+                                <br>أطلب الان
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="account.html">
+                                <img src="img/dash-icons/user.png" alt="">
+                                <br>حسابي
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="details.html">
+                                <img src="img/dash-icons/details.png" alt="">
+                                <br>تفاصيل الشحنات
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="reports.html">
+                                <img src="img/dash-icons/report.png" alt="">
+                                <br>تقارير
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="offers.html">
+                                <img src="img/dash-icons/default_6.png" alt="" width="80px" height="60px">
+                                <br>العروض الحالية
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="logout.html">
+                                <img src="img/dash-icons/logout.png">
+                                <br>تسجيل الخروج
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Start Order Now -->
+                <div class="col-sm-10">
+                    <div class="order-now">
+                        <div class="head col-xs-12 col-sm-12">
+                            <h1>سوق نقل</h1>
+                            <h2 class="subtitle">شركة بيرجيت</h2>
+                            <hr>
+                        </div>
+                        <div class="col-sm-12 order-head">
+                            <h2>طلب نقل</h2>
+                        </div>
+
+                        <div class="col-sm-12 info">
+                            <h4>معلومات عن الشحنة</h4>
+                        </div>
+                        <div class="col-sm-12 col-md-12">
+                            <form>
+                                <ul class="list-inline">
+                                    <h4 class="info">نوعها:</h4>
+                                    <li>
+                                        <input type="radio" value="سائل" name="1">سائل
+                                        <br> </li>
+                                    <li>
+                                        <input type="radio" value="معادن" name="1">معادن
+                                        <br> </li>
+                                    <li>
+                                        <input type="radio" value="اخشاب" name="1">اخشاب
+                                        <br> </li>
+                                    <li>
+                                        <input type="radio" value="قابلة للكسر" name="1">قابلة للكسر
+                                        <br> </li>
+                                    <li>
+                                        <input type="radio" value="قابلة للاشتغال" name="1">قابلة للاشتغال
+                                        <br> </li>
+                                    <li>
+                                        <input type="radio" value="غازية" name="1">غازية
+                                        <br> </li>
+                                    <li>
+                                        <input type="radio" value="اخرى" name="1">اخري
+                                        <br> </li>
+                                </ul>
+                            </form>
+                        </div>
+                        <div class="download col-sm-12 col-md-6">
+                            <form>
+                                <ul class="download list-unstyled">
+                                    <h4 class="info">طريقة التحميل</h4>
+                                    <li>
+                                        <input type="radio" name="1">حره (لا تشتمل الحبوب والغلال والسوائل)
+                                        <br> </li>
+                                    <li>
+                                        <input type="radio" name="1">حاويات (لا تشمل إستخدام أوناش)
+                                        <br> </li>
+                                    <li>
+                                        <input type="radio" name="1">كراتين (وزن أقل من 30 كجم)
+                                        <br> </li>
+                                    <li>
+                                        <input type="radio" name="1">بالتات (لا تشمل استخدام)
+                                        <br> </li>
+                                </ul>
+                            </form>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6">
+                            <h4 class="info">معلومات عن المستخدم</h4>
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">الإسم</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" id="focusedInput" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="text" class="col-sm-2 control-label">التليفون</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-12 col-md-12">
+                            <h4 class="info">مسار الشحنة</h4>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <h4 class="info">من</h4>
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">المحافظة</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" id="focusedInput" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="text" class="col-sm-2 control-label">المدينة</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6">
+                            <h4 class="info">إلى</h4>
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">المحافظة</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" id="focusedInput" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="text" class="col-sm-2 control-label">المدينة</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-12 col-md-12 text-center order-btn">
+                            <button class="btn-btn-warning">إطلب الأن</button>
+                        </div>
+                    </div>
+                </div>
+                <!--End Tabs -->
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-arabic.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
